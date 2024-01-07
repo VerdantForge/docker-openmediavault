@@ -1,1 +1,9 @@
-deb http://packages.openmediavault.org/public stoneburner main# deb http://downloads.sourceforge.net/project/openmediavault/packages stoneburner main## This software is not part of OpenMediaVault, but is offered by third-party## developers as a service to OpenMediaVault users.deb http://packages.openmediavault.org/public stoneburner partner# deb http://downloads.sourceforge.net/project/openmediavault/packages stoneburner partner
+deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public shaitan main
+# deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://downloads.sourceforge.net/project/openmediavault/packages shaitan main
+## Uncomment the following line to add software from the proposed repository.
+# deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public shaitan-proposed main
+# deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://downloads.sourceforge.net/project/openmediavault/packages shaitan-proposed main
+## This software is not part of OpenMediaVault, but is offered by third-party
+## developers as a service to OpenMediaVault users.
+# deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://packages.openmediavault.org/public shaitan partner
+# deb [signed-by=/usr/share/keyrings/openmediavault-archive-keyring.gpg] https://downloads.sourceforge.net/project/openmediavault/packages shaitan partner
